@@ -1,0 +1,13 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println(life(18 , "shaima"));
+        System.out.println(life(17 , "shaima"));
+     }
+     public static String life (int s , String a){
+         if(s >= 18){
+         return ("مبروك شيماء سوق تحصل على رخصة قيادة") ;
+         } else {
+           return ("للأسف يا شيماء مازلت صغيره للحصول على رخصة");}
+     }
+}
